@@ -19,4 +19,4 @@ const Character = ()=>{
   return view;
 };
 
-export default view;
+export default Character;
