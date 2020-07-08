@@ -21,6 +21,12 @@ const router = async () => {
 
   //Template hacia la vista 
   header.innerHTML = await Header();
+  //Llamamos el Hash
+  let hash = getHash();
+  //manejador de ruta
+  let route = await resolveRoutes(hash);
+  let render = routes [route] ? routes [route] : Error404;
+  content.innerHTML = await render();
 };
 
 export default router;
