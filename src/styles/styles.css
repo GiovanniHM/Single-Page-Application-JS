@@ -28,8 +28,8 @@ body {
 
 .Characters {
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-  grid-row-gap: 1.5em;
+  grid-gap: 1rem;
+  grid-row-gap: 1em;
   display: grid;
 }
 
@@ -119,4 +119,22 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 768px)
+{
+.Characters{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+}
+
+@media screen and (max-width: 480px)
+{
+.Characters{
+  grid-template-columns: repeat(1, 1fr);
+  
+}
+
 }
