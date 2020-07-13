@@ -5,15 +5,19 @@ const Header = ()=>{
             <h1>
               <a href="/Single-Page-Application-JS">100tifi.com</a>
             </h1>
+            
           </div>
-          <div class="Header-nav">
+            <div class="Header-nav">
             <a href="#/about/"> About</a>
-            <div class="switch-box" id="switch-box">
-        <i class="fas fa-sun"></i>
-        <div class="switch" id="switch-btn"></div>
-        <i class="fas fa-moon"></i>
-    </div>
+            <label class="switch">
+            <input type="checkbox" id="switch" onclick="terminos_cambio(this)">
+            <span class="slider round"></span>
+            </label>
+            
           </div>
+
+          
+
         </div>
   `;
   return view;
