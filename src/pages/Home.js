@@ -1,5 +1,6 @@
 import getData from '../utils/getData';
 
+
 const Home = async ()=>{
   const characters = await getData();
   const view = `

@@ -1,5 +1,5 @@
-function terminos_cambio(checkbox){
+// function terminos_cambio(checkbox){
 
-	document.body.classList.toggle('dark');
-}
+// 	document.body.classList.toggle('dark');
+// }
 
