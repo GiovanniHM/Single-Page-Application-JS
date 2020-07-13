@@ -6,6 +6,12 @@ body {
   background-color: #f4f4f4;
   color: #3c484e;
   font-family: 'Open Sans', sans-serif;
+  transition: 1s ease all;
+}
+
+body.dark {
+  background: #111111;
+  transition: 1s ease all;
 }
 
 
@@ -21,6 +27,10 @@ body {
   
 }
 
+body.dark .Header a{
+  color: #949494;
+}
+
 .Header-nav a{
   padding-top: 3px;
   margin-right: 10px;
@@ -28,10 +38,6 @@ body {
 
 .Header-nav{
   display:flex ;
-  
- 
-
-
 
 }
 
@@ -47,6 +53,7 @@ body {
   grid-gap: 1rem;
   grid-row-gap: 1em;
   display: grid;
+  
 }
 
 .Characters-inner {
@@ -54,6 +61,8 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+  
+  
 }
 
 .Characters-card {
@@ -64,7 +73,17 @@ body {
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  
+  
 }
+
+body.dark .Characters-card{
+  background-color: #222222;
+  color: #949494;
+  transition: 1s ease all;
+}
+
+
 
 .Characters-card img {
   width: 100%;
@@ -93,6 +112,12 @@ body {
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  
+}
+
+
+body.dark .Characters-item{
+  background-color: #222222;
 }
 
 .Characters-item img {
@@ -112,6 +137,10 @@ body {
 .Characters-item a {
   text-decoration: none;
   color: #026C86;
+}
+
+body.dark .Characters-item a{
+  color: #949494 ;
 }
 
 .Characters-item img {
