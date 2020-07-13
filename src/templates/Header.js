@@ -13,11 +13,7 @@ const Header = ()=>{
             <input type="checkbox" id="switch" onclick="terminos_cambio(this)">
             <span class="slider round"></span>
             </label>
-            
           </div>
-
-          
-
         </div>
   `
   function terminos_cambio(checkbox){

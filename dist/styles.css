@@ -61,8 +61,6 @@ body.dark .Header a{
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
-  
-  
 }
 
 .Characters-card {
@@ -240,6 +238,10 @@ input:checked + .slider:before {
 .Characters{
   grid-template-columns: repeat(1, 1fr);
   
+}
+
+.Characters-inner {
+  grid-template-columns: 1fr;
 }
 
 }
