@@ -2,10 +2,10 @@ const Header = ()=>{
   const view = `
   <div class="Header-main">
           <div class="Header-logo">
-            <h1>
-              <a href="/Single-Page-Application-JS">100tifi.com</a>
-            </h1>
-            
+              <a href="/Single-Page-Application-JS">
+              <img alt="Logo" src='../src/img/logo.png'
+               width=150" height="70">
+              </a>          
           </div>
             <div class="Header-nav">
             <a href="#/about/"> About</a>
@@ -23,6 +23,14 @@ const Header = ()=>{
   function terminos_cambio(checkbox){
 
     document.body.classList.toggle('dark');
+// Guardamos el modo en localstorage.
+    if(document.body.classList.contains('dark')){
+      localStorage.setItem('dark-mode', 'true');
+    } else {
+      localStorage.setItem('dark-mode', 'false');
+    }
+
+
   }
   ;
   return view;
