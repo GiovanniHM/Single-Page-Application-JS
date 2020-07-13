@@ -3,7 +3,7 @@ const Header = ()=>{
   <div class="Header-main">
           <div class="Header-logo">
               <a href="/Single-Page-Application-JS">
-              <img alt="Logo" src='../src/img/logo.png'
+              <img alt="Logo" src='https://occ-0-1068-1723.1.nflxso.net/dnm/api/v6/TsSRXvDuraoJ7apdkH6tsHhf-ZQ/AAAABWvcCE9czzpucMfdp5zcd1DoEYp1kvKmqA9pFjGGS6fjz5NbyXAtOpsgI-r52MIjv_HmyR6FP_YoMpgdilhG4bAqL7UazR0NdLn-.png?r=a6e'
                width=150" height="70">
               </a>          
           </div>
